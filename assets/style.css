@@ -19,6 +19,7 @@ body {
   align-items: center;
   cursor: pointer;
   transition: all 0.5s;
+  position: relative;
 }
 
 .card:hover {
@@ -47,4 +48,14 @@ body {
 .card:hover i:nth-of-type(2) {
   color: #15162e;
   display: inline-block;
+}
+
+.hole {
+  width: 1rem;
+  height: 1rem;
+  background: #3e4465;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border-radius: 50%;
 }
